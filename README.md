@@ -1,5 +1,5 @@
 # ponderada-deepracer
-O código deste repositório é projetado para calcular uma recompensa (ou pontuação) para o AWS DeepRacer com base em vários parâmetros de entrada que descrevem o estado atual do veículo e do ambiente. O objetivo dessa função de recompensa é incentivar o DeepRacer a aprender comportamentos desejáveis, como manter a velocidade ideal, permanecer na pista e alinhar sua direção com a direção ideal da pista. Abaixo, cada componente da função é detalhado.
+O código deste repositório é projetado para calcular uma recompensa (ou pontuação) para o AWS DeepRacer com base em vários parâmetros de entrada que descrevem o estado atual do veículo e do ambiente. O objetivo dessa função de recompensa é incentivar o DeepRacer a aprender comportamentos desejáveis, como manter uma velocidade ideal para conseguir terminar a corrida em um menor tempo, mas também conseguir fazer curvas sem sair da pista, permanecer na pista e alinhar sua direção com a direção ideal da pista, garantindo que o veículo continue tanto dentro da pista, mas também faça o percurso da melhor forma possível. Abaixo, cada componente da função é detalhado.
 
 Espaço de ação escolhido (contínuo):
 - Speed: [ 0.5 : 3 ] m/s
